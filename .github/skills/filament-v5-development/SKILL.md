@@ -5,6 +5,12 @@ description: Use when writing, reviewing, refactoring, or debugging Filament PHP
 
 # Filament PHP v5 Coding Standards
 
+<div align="right">
+
+**English** · [Русский README](../../../README.ru.md)
+
+</div>
+
 Standards for building production-grade Filament v5 applications. Every rule below is verified against the
 `filamentphp/filament` source at tag **v5.10.1**.
 

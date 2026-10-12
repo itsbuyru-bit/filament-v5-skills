@@ -1,3 +1,9 @@
+<div align="right">
+
+**English** · [Русский](README.ru.md)
+
+</div>
+
 # Filament v5 Skills
 
 An agent skill documenting coding standards, architecture patterns, and best practices for building with
@@ -13,6 +19,9 @@ own documentation lags the source, the source wins, and the discrepancy is calle
 |---|---|
 | [`SKILL.md`](.github/skills/filament-v5-development/SKILL.md) | The skill: `name` + `description` front matter, 20 structured sections, a gotchas section, 20 strict rules, and a 32-item summary checklist. |
 | [`REFERENCE.md`](.github/skills/filament-v5-development/REFERENCE.md) | Companion reference: full copy-ready code examples, the complete v3/v4 → v5 rename map, and a list of deprecated names that still compile. |
+
+> Both skill files are written in English — a deliberate choice, explained under
+> [A note on language](#a-note-on-language) below.
 
 ## Platform requirements (v5)
 
@@ -63,6 +72,22 @@ The API surface referenced here was machine-checked against the v5.10.1 checkout
 - every referenced class, enum, and interface name
 - ~250 referenced method names and artisan commands
 - every **negative** claim — the ~24 names the skill asserts do *not* exist in v5
+
+## A note on language
+
+Only this README is translated (see [Русский](README.ru.md)) — it carries the repository overview and the
+platform requirements.
+
+`SKILL.md` and `REFERENCE.md` are kept in English on purpose:
+
+- they are a technical reference of roughly 160 KB in which nearly every line is a method name, FQCN, or
+  code example;
+- a translation of that volume drifts from the original on every update, and drift in an API reference is
+  worse than having no translation at all;
+- agents read `SKILL.md` as a machine instruction, where English is the lowest-risk option.
+
+If a translated skill is needed, treat it as a separate task: a complete translation carrying a
+"current as of" marker, not a partial one.
 
 ## License
 
