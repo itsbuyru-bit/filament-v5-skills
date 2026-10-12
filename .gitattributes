@@ -1,0 +1,14 @@
+# Normalize line endings so Markdown renders identically on every platform.
+* text=auto eol=lf
+
+# The skill files are Markdown and must stay LF.
+*.md text eol=lf
+
+# Binary assets, if any are added later.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.pdf binary
+*.zip binary
