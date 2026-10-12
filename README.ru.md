@@ -9,7 +9,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/itsbuyru-bit/filament-v5-skills?style=flat-square)](https://github.com/itsbuyru-bit/filament-v5-skills/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/itsbuyru-bit/filament-v5-skills?style=flat-square)](https://github.com/itsbuyru-bit/filament-v5-skills/forks)
 [![GitHub issues](https://img.shields.io/github/issues/itsbuyru-bit/filament-v5-skills?style=flat-square)](https://github.com/itsbuyru-bit/filament-v5-skills/issues)
-[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 
 Агентский навык (skill), описывающий стандарты кода, архитектурные паттерны и лучшие практики разработки на
 [Filament](https://github.com/filamentphp/filament) **v5**.
@@ -112,5 +112,5 @@ API, упомянутый в этих файлах, был машинно све
 
 ## Лицензия
 
-MIT — см. [`LICENSE.md`](LICENSE.md). Сам Filament распространяется по лицензии MIT и является работой команды
+MIT — см. [`LICENSE`](LICENSE). Сам Filament распространяется по лицензии MIT и является работой команды
 Filament; этот репозиторий лишь документирует его публичный API и не распространяет его исходный код.

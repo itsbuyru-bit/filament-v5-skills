@@ -14,7 +14,11 @@ what determines whether the advice is still current.
 
 ## [Unreleased]
 
-Nothing yet.
+### Changed
+
+- `LICENSE.md` renamed to `LICENSE` and reduced to the plain MIT text. The trailing note about third-party
+  content broke GitHub's license detection, which reported `NOASSERTION`; GitHub now detects **MIT**. The
+  statement that no Filament source is redistributed already lives in `CONTRIBUTING.md` and both READMEs.
 
 ## [1.0.0] — 2026-10-12
 
@@ -28,9 +32,13 @@ Verified against **Filament v5.10.1**.
   names that still compile.
 - `README.md` — repository overview, platform requirements, usage, and the verification method.
 - `README.ru.md` — Russian translation of the overview, with a language switcher in both READMEs.
-- `LICENSE.md` — MIT, with a note that no Filament source is redistributed.
+- `LICENSE` — MIT.
+- Stars, forks, and issues badges in both READMEs.
 - `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, and `SECURITY.md`.
-- GitHub issue and pull request templates.
+- GitHub issue forms (`bug_report.yml`, `feature_request.yml`, `config.yml`) and a pull request template.
+  `config.yml` routes Filament framework bugs and vulnerabilities upstream.
+- `.gitattributes` marks Markdown and YAML as `linguist-documentation`, so the repository is not mislabelled
+  in GitHub's language statistics.
 
 ### Notes
 

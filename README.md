@@ -9,7 +9,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/itsbuyru-bit/filament-v5-skills?style=flat-square)](https://github.com/itsbuyru-bit/filament-v5-skills/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/itsbuyru-bit/filament-v5-skills?style=flat-square)](https://github.com/itsbuyru-bit/filament-v5-skills/forks)
 [![GitHub issues](https://img.shields.io/github/issues/itsbuyru-bit/filament-v5-skills?style=flat-square)](https://github.com/itsbuyru-bit/filament-v5-skills/issues)
-[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 
 An agent skill documenting coding standards, architecture patterns, and best practices for building with
 [Filament](https://github.com/filamentphp/filament) **v5**.
@@ -114,5 +114,5 @@ Found a bug in Filament rather than in this guidance? Report it
 
 ## License
 
-MIT — see [`LICENSE.md`](LICENSE.md). Filament itself is MIT-licensed and is the work of the Filament team;
+MIT — see [`LICENSE`](LICENSE). Filament itself is MIT-licensed and is the work of the Filament team;
 this repository only documents its public API and redistributes none of its source.
