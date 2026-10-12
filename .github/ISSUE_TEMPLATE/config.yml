@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Bug in Filament itself
+    url: https://github.com/filamentphp/filament/issues
+    about: This repository only documents Filament. Report framework bugs upstream, not here.
+  - name: Security vulnerability in Filament
+    url: https://github.com/filamentphp/filament/security/policy
+    about: Report framework vulnerabilities through Filament's own security policy.
+  - name: Security issue with this repository's guidance
+    url: https://github.com/itsbuyru-bit/filament-v5-skills/security/advisories/new
+    about: Report privately if the guidance itself could lead to insecure code.
+  - name: Read the contributing guide first
+    url: https://github.com/itsbuyru-bit/filament-v5-skills/blob/main/CONTRIBUTING.md
+    about: How verification works here, and what makes a contribution acceptable.

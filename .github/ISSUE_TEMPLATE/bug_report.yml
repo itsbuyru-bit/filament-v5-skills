@@ -1,0 +1,77 @@
+name: Wrong or outdated guidance
+description: Report an API claim in the skill that does not match the Filament source
+title: "[Inaccuracy] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep this accurate.
+
+        This repository is verified against a specific Filament release. Before filing, please confirm the
+        version you are checking against — the guidance states it in the front matter of `SKILL.md`.
+
+        **Please do not report Filament framework bugs here.** Those belong at
+        [filamentphp/filament/issues](https://github.com/filamentphp/filament/issues).
+
+  - type: input
+    id: location
+    attributes:
+      label: Where is the problem?
+      description: File and section, for example "SKILL.md §6" or "REFERENCE.md §16".
+      placeholder: SKILL.md §6 — Table Design
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: What does the skill currently say?
+      description: Quote the exact text or code block.
+      render: markdown
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: What does the Filament source actually do?
+      description: >
+        Include the file and line from the Filament source that proves it — for example
+        `packages/tables/src/Table/Concerns/HasBulkActions.php:37`. A claim without a source
+        reference cannot be acted on.
+      render: markdown
+    validations:
+      required: true
+
+  - type: input
+    id: filament-version
+    attributes:
+      label: Filament version you verified against
+      placeholder: v5.10.1
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: What kind of problem is it?
+      options:
+        - Wrong method or class name
+        - Wrong namespace
+        - Missing or wrong deprecation
+        - Wrong code example (would not run)
+        - Security-relevant guidance
+        - Other
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: I checked this against the Filament source code, not only the documentation.
+          required: true
+        - label: I searched `packages/` to confirm any "this does not exist" claim.
+          required: false

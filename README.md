@@ -7,6 +7,8 @@
 # Filament v5 Skills
 
 [![GitHub stars](https://img.shields.io/github/stars/itsbuyru-bit/filament-v5-skills?style=flat-square)](https://github.com/itsbuyru-bit/filament-v5-skills/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/itsbuyru-bit/filament-v5-skills?style=flat-square)](https://github.com/itsbuyru-bit/filament-v5-skills/forks)
+[![GitHub issues](https://img.shields.io/github/issues/itsbuyru-bit/filament-v5-skills?style=flat-square)](https://github.com/itsbuyru-bit/filament-v5-skills/issues)
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 
 An agent skill documenting coding standards, architecture patterns, and best practices for building with
@@ -92,7 +94,25 @@ platform requirements.
 If a translated skill is needed, treat it as a separate task: a complete translation carrying a
 "current as of" marker, not a partial one.
 
+## Contributing
+
+Corrections and additions are welcome, with one condition: **every API claim must be verified against the
+Filament source**, not against documentation prose and not from memory. Filament's docs lag its source, and
+its `@deprecated` aliases keep old method names working silently — that combination is exactly how wrong
+guidance gets written.
+
+- [`CONTRIBUTING.md`](CONTRIBUTING.md) — how verification works here, how to re-verify against a new Filament
+  release, and the language policy.
+- [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) — Contributor Covenant 2.1.
+- [`SECURITY.md`](SECURITY.md) — including why *wrong security guidance* is the real threat model for a
+  document that agents read literally.
+- [`CHANGELOG.md`](CHANGELOG.md) — Keep a Changelog format; each release names the Filament version it was
+  verified against.
+
+Found a bug in Filament rather than in this guidance? Report it
+[upstream](https://github.com/filamentphp/filament/issues).
+
 ## License
 
-MIT. Filament itself is MIT-licensed and is the work of the Filament team; this repository only documents
-its public API.
+MIT — see [`LICENSE.md`](LICENSE.md). Filament itself is MIT-licensed and is the work of the Filament team;
+this repository only documents its public API and redistributes none of its source.

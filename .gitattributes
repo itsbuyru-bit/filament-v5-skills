@@ -3,6 +3,13 @@
 
 # The skill files are Markdown and must stay LF.
 *.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# This repository is documentation only: keep it out of the language statistics.
+*.md linguist-documentation
+*.yml linguist-documentation
+*.yaml linguist-documentation
 
 # Binary assets, if any are added later.
 *.png binary

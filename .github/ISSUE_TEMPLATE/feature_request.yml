@@ -1,0 +1,56 @@
+name: Suggest guidance
+description: Propose a pattern, pitfall, or deprecation the skill does not cover yet
+title: "[Guidance] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggestions are welcome, with one condition: **the guidance must be verifiable against the Filament
+        source.** Style preferences presented as standards will be declined — if Filament does not enforce it
+        and the community has not converged on it, it does not belong in a standards document.
+
+  - type: textarea
+    id: gap
+    attributes:
+      label: What is missing?
+      description: Describe the pattern, pitfall, or deprecation that the skill does not cover.
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why does it belong in a standards document?
+      description: >
+        Explain the consequence of getting it wrong. "It is a matter of taste" is a reason to decline;
+        "it silently breaks X" is a reason to include it.
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence from the Filament source
+      description: File and line, or a doc link, plus the Filament version.
+      render: markdown
+    validations:
+      required: true
+
+  - type: textarea
+    id: example
+    attributes:
+      label: Suggested example
+      description: A short, correct code example if you have one. Optional.
+      render: php
+    validations:
+      required: false
+
+  - type: input
+    id: section
+    attributes:
+      label: Which section should it go in?
+      description: Existing section number, or "new section".
+      placeholder: SKILL.md §6 — Table Design
+    validations:
+      required: false

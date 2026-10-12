@@ -7,6 +7,8 @@
 # Навыки Filament v5
 
 [![GitHub stars](https://img.shields.io/github/stars/itsbuyru-bit/filament-v5-skills?style=flat-square)](https://github.com/itsbuyru-bit/filament-v5-skills/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/itsbuyru-bit/filament-v5-skills?style=flat-square)](https://github.com/itsbuyru-bit/filament-v5-skills/forks)
+[![GitHub issues](https://img.shields.io/github/issues/itsbuyru-bit/filament-v5-skills?style=flat-square)](https://github.com/itsbuyru-bit/filament-v5-skills/issues)
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 
 Агентский навык (skill), описывающий стандарты кода, архитектурные паттерны и лучшие практики разработки на
@@ -90,7 +92,25 @@ API, упомянутый в этих файлах, был машинно све
 Если русская версия навыка нужна — это отдельная задача, и лучше делать её как полный перевод с пометкой
 актуальности, а не как частичный. Скажите, если нужно.
 
+## Как участвовать
+
+Исправления и дополнения приветствуются — с одним условием: **каждое утверждение об API должно быть
+проверено по исходному коду Filament**, а не по документации и не по памяти. Документация Filament отстаёт от
+кода, а алиасы с `@deprecated` продолжают молча работать — именно это сочетание и порождает неверные
+рекомендации.
+
+- [`CONTRIBUTING.md`](CONTRIBUTING.md) — как здесь устроена проверка достоверности, как перепроверить навык
+  под новый релиз Filament и какова политика по языкам.
+- [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) — Contributor Covenant 2.1.
+- [`SECURITY.md`](SECURITY.md) — в том числе почему *неверная рекомендация по безопасности* и есть настоящая
+  модель угроз для документа, который агенты читают буквально.
+- [`CHANGELOG.md`](CHANGELOG.md) — формат Keep a Changelog; в каждом релизе указана версия Filament, по
+  которой проводилась проверка.
+
+Нашли баг в самом Filament, а не в этих рекомендациях? Сообщите
+[в upstream](https://github.com/filamentphp/filament/issues).
+
 ## Лицензия
 
-MIT. Сам Filament распространяется по лицензии MIT и является работой команды Filament; этот репозиторий лишь
-документирует его публичный API.
+MIT — см. [`LICENSE.md`](LICENSE.md). Сам Filament распространяется по лицензии MIT и является работой команды
+Filament; этот репозиторий лишь документирует его публичный API и не распространяет его исходный код.
