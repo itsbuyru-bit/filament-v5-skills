@@ -6,6 +6,9 @@
 
 # Filament v5 Skills
 
+[![GitHub stars](https://img.shields.io/github/stars/itsbuyru-bit/filament-v5-skills?style=flat-square)](https://github.com/itsbuyru-bit/filament-v5-skills/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+
 An agent skill documenting coding standards, architecture patterns, and best practices for building with
 [Filament](https://github.com/filamentphp/filament) **v5**.
 
